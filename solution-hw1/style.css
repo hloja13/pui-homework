@@ -1,13 +1,13 @@
+.line {
+    text-align: center;
+}
+
 .logo {
     width: 400px;
 }
 
 .image-size {
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
 }
 .Top-text-size {
     text-align: center;
@@ -18,24 +18,20 @@
 }
 
 .detail-image-size {
-    width: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
 }
 
 .cart-package-image {
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
 }
 
 .box {
+    height: 20px;
     width: 65px;
     border: 1px solid black;
-    padding: 1px;
-    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    text-align: center;
 }
