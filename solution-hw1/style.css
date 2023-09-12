@@ -1,0 +1,41 @@
+.logo {
+    width: 400px;
+}
+
+.image-size {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.Top-text-size {
+    text-align: center;
+}
+
+.caption-text {
+    text-align: center;
+}
+
+.detail-image-size {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.cart-package-image {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.box {
+    width: 65px;
+    border: 1px solid black;
+    padding: 1px;
+    margin: 1px;
+}
