@@ -3,7 +3,7 @@
 }
 
 .logo {
-    width: 400px;
+    width: 400px; 
 }
 
 .image-size {
@@ -29,9 +29,9 @@
     height: 20px;
     width: 65px;
     border: 1px solid black;
+    float: right;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-around;
-    text-align: center;
 }
