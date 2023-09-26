@@ -6,6 +6,11 @@
 .nav-link {
     display: inline-block;
     margin-left: 20px; 
+    margin-bottom: 0; 
+}
+
+.nav-link h6 {
+    margin: 0; /* Set margin to 0 to remove spacing around the text */
 }
 
 .container1 {
@@ -16,7 +21,12 @@
 
 .logo {
     flex: 1;
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
 }
+
 
 .divider {
     flex: 1;
