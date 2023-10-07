@@ -32,7 +32,7 @@ class Roll {
       this.size = packSize;
       this.basePrice = basePrice;
     }
-}
+  }
   
 const cart = [];
 
@@ -40,10 +40,10 @@ const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 const rollType = params.get('roll');
 
-// Access the roll information from the 'rolls' object
+
 const currentRoll = rolls[rollType];
 
-// Update the Heading and Image elements
+
 const headingElement = document.getElementById('rollHeading');
 const imageElement = document.getElementById('rollImage');
 
@@ -76,5 +76,5 @@ function addToCart() {
     cart.push(roll);
   
     console.log('Cart:', cart);
-  }
+}
 
