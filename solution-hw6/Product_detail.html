@@ -3,10 +3,10 @@
   <meta charset="UTF-8">
   <title>Product Detail Page</title>
   <link rel="stylesheet" href="hw6_style.css"/>
-  <script src="rollsData.js"></script>
   
   <body>
     <script src="price_option.js"></script>
+    <script src="local_storage.js"></script>
     <div class="top-right">
         <a href="./index.html" class="nav-link">
             <h6>Products</h6>
@@ -57,11 +57,12 @@
                     <p>Total Price: <span id="totalPrice">$0.00</span></p>
                     
                     <a href="./cartpage.html">
-                        <button onclick="addToCart()">Add to Cart</button>
+                        <button onclick="addToCart()" id="add-to-cart-button">Add to Cart</button>
                     </a>
                 </div>
             </div>
         </div>
     </div>
+    <script src="rollsData.js"></script>
   </body>
 </html>
