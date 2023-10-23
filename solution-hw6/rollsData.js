@@ -57,7 +57,7 @@ function updatePrice() {
   
     const selectedGlazingPrice = parseFloat(glazingSelect.value);
     const selectedPackSizePrice = parseFloat(packSizeSelect.value);
-    const basePrice = currentRoll.basePrice; // Use the base price from the currentRoll
+    const basePrice = currentRoll.basePrice;
   
     const totalPrice = (basePrice + selectedGlazingPrice) * selectedPackSizePrice;
   
@@ -67,7 +67,7 @@ function updatePrice() {
 function addToCart() {
     const glazingSelect = document.getElementById('glazingOptions');
     const packSizeSelect = document.getElementById('packSizeOptions');
-    const rollType = currentRoll.name; // Get the roll type from the currentRoll
+    const rollType = currentRoll.name;
     const glazing = glazingSelect.value;
     const packSize = packSizeSelect.value;
     const basePrice = currentRoll.basePrice;
