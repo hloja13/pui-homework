@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="UTF-8">
-  <title>Page Title</title>
+  <title>Product Detail Page</title>
+  <link rel="stylesheet" href="style.css"/>
   
   <body>
+    <div class="container">
+      <div class="logo">
+          <a href="./index.html">
+              <img src="/assets/logo/logo-01.svg" alt="Bun Bun Shop logo"/>
+          </a>
+      </div>
+    </div>
+    <hr class="divider">
+    <div class="header">
+      <a href="./index.html" class="nav-link">
+          <h3>Products</h3>
+      </a>
+      <a href="./cartpage.html" class="nav-link">
+          <h3>Cart</h3>
+      </a>
+      <p>Our hand-made cinnamon rolls</p>
+    </div>
 
-    <h1>Other Page</h1>
+    <div class="detail-image-size">
+      <img src="/assets/products/original-cinnamon-roll.jpg" alt="original cinnamon roll" />
+      
+      <div class="caption-text">
+        <p>
+          Customize our delicious, hand-made Cinnamon Rolls to your liking!
+        </p>
+        <p>
+          Glazing:
+        </p>
+        <select name="Glazing" id="Glazing">
+          <option value="Keep original">Keep original</option>
+          <option value="Sugar milk">Sugar milk</option>
+          <option value="Vanilla milk">Vanilla milk</option>
+          <option value="Double chocolate">Double chocolate</option>
+        </select>
+        <p>
+          Pack size:
+        </p>
+        <select name="pack-size" id="pack-size">
+          <option value="1">1</option>
+          <option value="3">3</option>
+          <option value="6">6</option>
+          <option value="12">12</option>
+        </select>
+      </div>
 
-    <p>
-        Hello!
-    </p>
+      <div>
+        <p>$2.49</p>
+        <a href="./cartpage.html">
+          <p>Add to Cart</p>
+        </a>
+      </div>
 
   </body>
 </html>
