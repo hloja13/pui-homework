@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
         //img inside div
         const rollImage = document.createElement("img");
-        rollImage.src = `/assets/products/${roll.type.replace(/\s/g, '-').toLowerCase()}.jpg`;
+        rollImage.src = `assets/products/${roll.type.replace(/\s/g, '-').toLowerCase()}.jpg`;
         rollImage.alt = roll.type;
         rollImage.className = "cart-package-image";
         
