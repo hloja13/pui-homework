@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="hw6style.css"/>
+
+    <body>
+        <script src="detail.js"></script>
+        <script src="pricecalc.js"></script>
+        <div class="header">
+            <a href="./index.html" class="nav-link">
+                <p>Products</p>
+            </a>
+            <a href="./shoppingcart.html" class="nav-link">
+                <p>Cart</p>
+            </a>
+            <sup class="badge">2</sup>
+
+        </div>
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="/assets/logo/logo-01.svg" alt="Bun Bun Shop logo"/>
+                </a>
+            </div>
+            <hr class="divider">
+        </div>
+
+        <div class="Top-text-size">
+            <p>Our hand-made cinnamon rolls</p>
+        </div>  
+
+        <div class="detail-container">
+            <div class="image-container">
+                <img id= "rollImage" src="" alt="Cinnamon roll image" />
+            </div>
+            <div class="info-container">
+                <div class="caption-text">
+                    <p>
+                        Customize our delicious, hand-made Cinnamon Rolls to your liking!
+                    </p>
+                    <label for = "glazing">Glazing:</label>
+                    <select name="glazing" id="glazing" onchange="updatePrice()">
+                        <option value="0.00">Keep original</option>
+                        <option value="0.00">Sugar milk</option>
+                        <option value="0.50">Vanilla milk</option>
+                        <option value="1.50">Double chocolate</option>
+                    </select>
+
+                    <label for = "packSize">Pack size:</label>
+                    <select name="packSize" id="packSize" onchange="updatePrice()">
+                        <option value="1">1</option>
+                        <option value="3">3</option>
+                        <option value="6">6</option>
+                        <option value="12">12</option>
+                    </select>
+                </div>
+                <div class = "cartblock">
+                    <div class = "child">
+                        <p> Total Price: <span id="Pricetotal"> $0.00</span></p>
+                    </div>
+                    <div class = "child">
+                        <a href="./shoppingcart.html">
+                            <button onclick="addToCart()">Add to Cart</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>  
+</html>
